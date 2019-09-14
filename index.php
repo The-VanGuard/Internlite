@@ -1,6 +1,6 @@
 <?php
 require_once 'server.php';
-require_once 'header.php';
+require_once 'header.php'
 ?>
 <nav class="navbar navbar-expand-md bg-dark navbar-dark">
 	<a href="index.php"><img src="images/favicon.png" alt="Logo" style="width:50px;"></a>
@@ -29,7 +29,7 @@ require_once 'header.php';
 			?>
 		</ul>
 		<?php
-		if(isset($_SESSION['success']) && !empty($_SESSION['success']))
+		if(isset($_SESSION['success'])  !empty($_SESSION['success']))
 		{
 			?>
 			<form class="form-inline my-2 my-lg-0">
